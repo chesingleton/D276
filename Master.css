@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #EFF1F3;
     color: #433E3F;
 }
@@ -6,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.nav {
+nav {
     text-decoration: underline; 
     display: flex;
     justify-content: center; 
@@ -32,4 +33,26 @@ body{
     color: #7A7265;
     font-weight: 1000;
 
+}
+table {
+    margin: 14px;
+    border-collapse: collapse;
+    border-spacing: 3px;
+    padding: 7px;
+    width: 99%;
+}
+caption {
+    font-style: italic;
+    color: #433E3F;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+th {
+    font-style: italic;
+    font-variant: small-caps;
+}
+td {
+    border: 1px solid #433E3F;
+    vertical-align: top;
+    padding: 7px;
 }
