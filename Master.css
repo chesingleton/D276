@@ -1,0 +1,12 @@
+.Name {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    text-decoration: underline; 
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    color:blue;
+    font-size: 21px;
+}
