@@ -1,5 +1,10 @@
+* {
+    box-sizing:border-box;
+    margin: 5px;
+    padding: 1px;
+}
 body{
-    justify-content: left;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EFF1F3;
     color: #433E3F;
@@ -11,6 +16,9 @@ nav {
     gap: 10px; 
     color:blue;
     font-size: 21px;
+}
+nav a:hover{
+    color: #C69C72;
 }
 table {
     margin: 14px;
@@ -35,33 +43,35 @@ td {
     padding: 7px;
 }
 #skillsList {
-    columns:3
+    columns:3;
+    list-style-type: square;
+    padding-left: 20px;
 }
-.head {
+h1,h4{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 .Date {
     font-size: 15px;
-    font-weight: 1000px;
+    font-weight: 900;
     display: flex;
     justify-content: center;
 }
 .sectionHeader {
     font-size: 25px;
     color: #8E6E53;
-    font-weight:2000;
+    font-weight:800;
     text-shadow: 1px 1px 2px #53738e;
 }
 .positionTitle {
     color: #C69C72;
     font-size: 18px;
-    font-weight: 1000;
+    font-weight: 500;
 }
 .employerName {
     color: #7A7265;
-    font-weight: 1000;
+    font-weight: 900;
 
 }
 .contact {
@@ -71,6 +81,62 @@ td {
 .coverBody {
     margin-left: 40px;
 }
+.coverBody p {
+    font-size: 15px;
+}
 mark {
     background-color: #C69C72;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+width: 100%;
+padding: 8px 10px;
+margin-bottom: 0px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+box-sizing: border-box;
+transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+outline: none;
+border-color: #4a90e2;
+box-shadow: 0 0 8px rgba(74,144,226,0.4);
+}
+fieldset {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px 15px 15px 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #C69C72;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+video{
+    width: 100%;
+}
+image {
+    width: 100%;
 }

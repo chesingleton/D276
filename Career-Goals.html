@@ -8,9 +8,49 @@
     <link rel="stylesheet" href="Master.css">
 </head>
 <body>
-
-    <!-- Your content goes here -->
-
-    <script src="main.js"></script>
+    <header>
+        <h1>Che Singleton</h1>
+        <h4>Web Developer</h4>
+        <nav>
+            <a href="Resume.html">Resume</a>
+            <a href="Career-Goals.html">Career Goals</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <form action="https://wp.zybooks.com/form-viewer.php">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" required><br>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required><br>
+                <input type="text" name="companyName" id="companyName" placeholder="Company Name" required><br>
+                <input type="email" name="email" id="email" placeholder="Email" required><br>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="(123)456-7890" required><br>
+                <textarea id="message" placeholder="Enter Message" rows="5" cols="50" required></textarea><br>
+                <fieldset>
+                <legend>Best Contact Time</legend>
+                <input type="radio" name="contactTime" id="contactTimeAny" value="any" checked><label for="contactTimeAny">Any</label><br>
+                <input type="radio" name="contactTime" id="contactTimeAM" value="AM"><label for="contactTimeAM">AM</label><br>
+                <input type="radio" name="contactTime" id="contactTimePM" value="PM"><label for="contactTimePM">PM</label><br>
+                <label for="contactOption">How should I contact you</label><br>
+                </fieldset>
+                <select name="contactOption" id="contactOption" required>
+                    <option value="default">Select an option</option>
+                    <option value="selectPhone">Phone</option>
+                    <option value="selectEmail">Email</option>
+                    <option value="selectText">Text</option>
+                </select><br>
+                
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+        <hr>
+        <section>
+            <h3>Multimedia</h3>
+            <img src="wanderercreative-blank-profile-picture-973460.svg" alt="Picture of grey icon on grey background"><br>
+            <audio src="speech.mp3" controls>Update broswer audio element in use.</audio>
+            <video src="shenzen.mp4" controls style="width:99%"></video>
+        </section>
+    </main>
+    
 </body>
 </html>
