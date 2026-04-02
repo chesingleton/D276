@@ -10,3 +10,6 @@
     color:blue;
     font-size: 21px;
 }
+#skillsList {
+    columns:3
+}
